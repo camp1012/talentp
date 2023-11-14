@@ -69,7 +69,7 @@ gap: 8px; border-radius: 10px;color:#2196F3;
 
             <p style="
     text-align: left;
-    font-size: 14px;
+    font-size: 14px;    min-height: 63px;
 ">  {{ truncateDescription(item.description) }}</p>
 
 
