@@ -9,7 +9,7 @@ import PerfilEmpresa from './components/PerfilEmpresa.vue';
 import PerfilVacante from './components/PerfilVacante.vue';
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("/"),
   routes: [
     { path: '/talentp/', component: PerfilEmpresa },
     { path: '/talentp/vacante', component: PerfilVacante },
